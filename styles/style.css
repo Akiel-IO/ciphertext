@@ -154,14 +154,13 @@ textarea::placeholder {
 .textoFinal {
   width: 100%;
   font-size: 24px;
-  color: var(--color-greyDark);
+  color: var(--dark-blue-300);
   border: none;
   outline: none;
   text-align: center;
   overflow: hidden;
   resize: none;
   pointer-events: none;
-  font-family: "Space Mono", monospace;
 }
 
 .textoFinal::placeholder {
@@ -172,8 +171,12 @@ textarea::placeholder {
   height: auto;
   min-height: calc(100% - 67px - 32px);
   pointer-events: all;
-  text-align: left;
+  text-align: center;
   overflow: auto;
+}
+
+.ocultar {
+  display: none;
 }
 
 @media screen and (max-width: 840px) {
