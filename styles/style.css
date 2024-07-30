@@ -207,6 +207,9 @@ textarea::placeholder {
   .right.ajustar {
     height: 100%;
   }
+  .button__desencriptar {
+    background-color: transparent;
+  }
   .munheco {
     display: none;
   }
@@ -215,6 +218,34 @@ textarea::placeholder {
   }
   .creador {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .button__encriptar,
+  .button__desencriptar,
+  .button__copiar {
+    width: 100%;
+    height: 50px;
+    border-radius: 19px;
+    font-size: 14px;
+  }
+  .title {
+    width: 50%;
+    font-size: 22px;
+  }
+  .inputtextarea {
+    max-height: 200px;
+    font-size: 20px;
+  }
+  .button__desencriptar {
+    background-color: transparent;
+  }
+  .info {
+    font-size: 10px;
+  }
+  .textoFinal {
+    font-size: 16px;
   }
 }
 
